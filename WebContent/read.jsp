@@ -10,18 +10,14 @@
  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<h2>READ</h2>
-	
+	<h2>Read</h2>
 	<div class="list-group">
-	<ul>
-		<li class="list-group-item list-group-item-action"><a href="ReadIndividual.jsp">Read Individual</a></li>
-		<li class="list-group-item list-group-item-action"><a href="ReadGeneral.jsp">Read General</a></li>
-		
-	</ul>
+		<ul>
+			<li class="list-group-item list-group-item-action" ><a href="ReadIndividual.jsp">Read Individual</a></li>
+			<li class="list-group-item list-group-item-action"><a href="ReadGeneral.jsp">Read General</a></li>
+		</ul>
 	</div>
-
-
-
+	<a class="btn btn-info" href="index.jsp">Back</a>
 
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

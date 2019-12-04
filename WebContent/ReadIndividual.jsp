@@ -10,25 +10,16 @@
  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<h2>READ INDIVIDUAL</h2>
-	<form action="ReadIndivitualServlet" method="post">
-		<p>
-			<label for="txtIdProduct">ID of the product of search:</label> 
-			<input class="form-control" type="text" id="txtIdProduct" name="txtIdProduct">
-		</p>
-
-		<p>
-			<input class="btn btn-primary" type="submit" value="Search the Product">
-		</p>
-
-	</form>
+<h2>Read Individual</h2>
 	
-	<p>
-		<a href="../index.jsp"><input class="btn btn-info" type="button" value="Return"></a>
-	</p>
-
-
-
+	
+		<p>
+		<label for="txtIdProduct">Id Product:</label>
+		<input class="form-control" type="text" id="txtIdProduct" name="txtIdProduct">
+		</p>
+		<input id="btnReadIndividual" class="btn btn-primary" type="button" value="Search Product">
+	
+	<div id="resultado"></div>
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -41,6 +32,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
- 	<script src="js/script.js"></script>
+ 	<script src="js/scriptReadIndividual.js"></script>
 </body>
 </html>

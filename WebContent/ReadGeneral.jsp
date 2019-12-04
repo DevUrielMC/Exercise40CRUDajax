@@ -11,13 +11,11 @@
 </head>
 <body>
 <h2>READ GENERAL</h2>
-		<form class="form-group" action="ReadGeneralServlet" method="post">
-			<input class="btn btn-primary" type="submit" value="List Of all Products">
-				
-		</form>
-		<p>
-		<a href="../index.jsp"><input class="btn btn-info" type="button" value="Return"></a>
-		</p>
+		<h2>Read General Employee With Prepared Statements and Props</h2>
+	<form action="ReadGeneralServlet" method="post">
+		<input class="btn btn-primary" type="submit" value="List All Employees">
+	</form>
+	<a class="btn btn-info" href="read.jsp">Back</a>
 
 
 

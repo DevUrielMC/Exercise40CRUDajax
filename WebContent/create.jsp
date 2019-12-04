@@ -10,25 +10,35 @@
  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-	<h2>Create</h2>
-	
-	<form class="form-group" action="CreateServlet" method="post"> <!-- En este caso se utilizo el ../ para referenciar a la clase servlet que no se encuentra dentro de la misma carpeta -->
+	<h2>Create with Prepared Statements</h2>
+	<form class="form-group" action="CreateServlet" method="post">
 		<p>
-		<label for="txtIdProduct">Id Product</label>
-		<input class="form-control" type="text" id="txtIdProduct" name="txtIdProduct" disabled placeholder="Id Product Generated Automatically">
+		<label for="txtIdEmployee">Id Employee</label>
+		<input class="form-control" type="text" id="txtIdEmployee" name="txtIdEmployee" disabled>
 		</p>
 		<p>
-		<label for="txtNameProduct">Name Product</label>
-		<input class="form-control" type="text" id="txtNameProduct" name="txtNameProduct" required>
+		<label for="txtNameEmployee">Name Employee</label>
+		<input class="form-control" type="text" id="txtNameEmployee" name="txtNameEmployee">
 		</p>
 		<p>
-		<label for="txtPriceProduct">Price Product</label>
-		<input class="form-control" type="text" id="txtPriceProduct" name="txtPriceProduct">
+		<label for="txtAgeEmployee">Age Employee</label>
+		<input class="form-control-range" type="range" id="txtAgeEmployee" name="txtAgeEmployee" min="18" max="100" step="1">
 		</p>
-		<input class="btn btn-primary" type="submit" value="Create Product">
+		<p>
+		<label for="txtAddressEmployee">Address Employee</label>
+		<input class="form-control" type="text" id="txtAddressEmployee" name="txtAddressEmployee">
+		</p>
+		<p>
+		<label for="txtSalaryEmployee">Salary Employee</label>
+		<input class="form-control" type="text" id="txtSalaryEmployee" name="txtSalaryEmployee">
+		</p>
+		<p>
+		<label for="txtDepartmentEmployee">Department Employee</label>
+		<input class="form-control" type="text" id="txtDepartmentEmployee" name="txtDepartmentEmployee">
+		</p>
+		<input class="btn btn-primary" type="submit" value="Create Employee">
 	</form>
-	
-	<a href="../index.jsp"><input class="btn btn-info" type="button" value="Return"></a>
+	<a class="btn btn-info" href="index.jsp">Back</a>
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 

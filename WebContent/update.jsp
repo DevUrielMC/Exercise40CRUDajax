@@ -12,6 +12,7 @@
 <body>	
 
 <h2>UPDATE</h2>
+	<h2>Update</h2>
 	<form class="form-group" action="UpdateServlet" method="post">
 		<p>
 		<label for="txtIdProduct">Id Product</label>
@@ -27,11 +28,6 @@
 		</p>
 		<input class="btn btn-primary" type="submit" value="Update Product">
 	</form>
-	
-	<p>
-		<a href="../index.jsp"><input class="btn btn-info" type="button" value="Return"></a>
-	</p>
-
 
 
 	
